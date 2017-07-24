@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tourney.name %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @tourney.start_time %>
+</p>
+
+<%= link_to 'Edit', edit_tourney_path(@tourney) %> |
+<%= link_to 'Back', tourneys_path %>
